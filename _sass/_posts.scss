@@ -6,6 +6,19 @@
 .page,
 .post {
   margin-bottom: 4em;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0.5rem 1rem #ccc;
+
+  @media (max-width: 38em) {
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: none;
+  }
 }
 
 // Blog post or page title
@@ -14,6 +27,7 @@
 .post-title a {
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -23,16 +37,23 @@
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-bottom: 2rem;
+  color: #bbb;
+  // font-size: 0.9em;
+  // text-transform: uppercase;
+  // letter-spacing: 0.1em;
+  // font-weight: bold;
 }
 
+.post-content {
+  // font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+}
 
 // Related posts
 .related {
-  padding-top: 2rem;
+  // padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  // border-top: 1px solid #eee;
 }
 
 .related-posts {
