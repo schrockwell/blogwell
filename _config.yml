@@ -9,7 +9,7 @@ title:               Blogwell
 tagline:             by Rockwell Schrock
 url:                 http://blog.rockwellschrock.com/
 paginate:            5
-baseurl:             "" #http://schrockwell.github.io/blogwell/
+baseurl:             http://schrockwell.github.io/blogwell/
 
 # Assets
 #
